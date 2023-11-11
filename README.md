@@ -1,2 +1,2 @@
 # DesWeb
- Discip. Info Internet
+ Disc. Info Internet (HTML, CSS e JavaScript)
