@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa-Unid3-Disc.DWebI</title>
+</head>
+<body>
+    <h2>Formulário de Visitação ao IF</h2>
+
+    <img src="img/apertodemao.jpg" alt="Aperto de mão" width="300" height="200">
+
+    <p>Traga sua escola para conhecer o IF! Para agendar uma visita, preencha as informações abaixo. 
+        Após o preenchimento, aguarde, que entraremos em contato pelo whatsapp para efetivar a data
+        e horário da visita.<br>
+        Na visita ao IF sera apresentada toda a infraestrutura do campus, seus cursos, formas de ingresso. 
+        Também podemos realizar experimentos nos diversos laboratórios que temos disponíveis!<br>
+        Estamos de portas abertas e esperando por voçês!
+    </p>
+
+    <form action="/action_page.php" id="form1">
+
+        <label for="nomeesc">Qual o nome da escola ou institução?</label>
+            <input type="text" id="nomeesc" name="nomesc"><br><br>
+        <label for="endesc">Qual o endereço da escola ou institução?</label>
+            <input type="text" id="endesc" name="endesc"><br><br>
+        <label for="docesc">Docente responsável pela escola ou institução:</label>
+            <input type="text" id="docesc" name="docesc"><br><br>
+        <label for="datavis">Data que pretende realizar a visita:</label>
+            <input type="date" id="datavis" name="datavis"><br><br>
+        <label for="turnovis">Turno que pretende realizar a visita:</label>
+            <select name="turnovis" id="turnovis">
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select><br><br>
+        <label for="naluno">Quantidade de estudantes:</label>
+            <input type="text" id="naluno" name="naluno"><br><br>
+        <label for="seraluno">Ano/Série dos estudantes:</label>
+            <input type="text" id="seraluno" name="seraluno"><br><br>
+        <input type="submit" value="Enviar formulário">   
+    </form>
+</body>
+</html>
