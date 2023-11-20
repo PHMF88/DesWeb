@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Crie uma página de cadastro bem básica usando apenas HTML com os campos(nome, e-mail, cpf, rg, data nascimento, rua, número, bairro, cidade, sexo e raça)
+    Crie um botão pra enviar os dados e outro pra limpar o formulário. Envie os arquivos para o mesmo repositório do Github criado na unidade anterior. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Unidade 4-Tarefa 4</title>
+  </head>
+  <body>
+     <div class="container">
+        <form method="post">
+            <div class="form-group col-4"> 
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" aria-describedby="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group col-4"> 
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digiti seu email">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group col-4"> 
+                <label for="nome">CPF</label>
+                <input type="text" class="form-control" id="cpf" aria-describedby="cpf" placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+            </div>
+            <div class="form-group col-4"><!--col-4 diminui o tamanho da caixa para preenchimento-->
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </div>
+</body>
+</html>
