@@ -24,12 +24,40 @@
               <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
             </div>
             <div class="form-group col-4"> 
-                <label for="nome">CPF</label>
+                <label for="cpf">CPF</label>
                 <input type="text" class="form-control" id="cpf" aria-describedby="cpf" placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
             </div>
-            <div class="form-group col-4"><!--col-4 diminui o tamanho da caixa para preenchimento-->
-              <label for="exampleInputPassword1">Senha</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            <div class="form-group col-4"> 
+                <label for="rg">RG</label>
+                <input type="text" class="form-control" id="rg" aria-describedby="rg" placeholder="Digite seu RG">
+            </div>
+            <div class="form-group col-4"> 
+                <label for="datavis">Data de nascimento</label>
+                <input type="date" class="form-control" id="dataNasc" aria-describedby="dataNasc" placeholder="Digite a data do seu nascimento">
+            </div><br>
+            <p>Digite os dados do seu endereço:</p>
+            <div class="form-group col-4"> 
+                <label for="rua">Rua</label>
+                <input type="rua" class="form-control" id="rua" aria-describedby="rua" placeholder="Digite o nome da sua rua">
+            </div>
+            <div class="form-group col-4"> 
+                <label for="rua">Rua</label>
+                <input type="rua" class="form-control" id="rua" aria-describedby="rua" placeholder="Digite o nome da sua rua">
+            </div>
+            <div class="form-group col-4">
+              <label for="bairro">Bairro</label>
+              <input type="text" class="form-control" id="bairro" placeholder="Digite o nome do seu bairro">
+            </div>
+            <div class="form-group col-4">
+                <label for="cidade">Cidade</label>
+                <input type="text" class="form-control" id="cidade" placeholder="Digite o nome do sua Cidade">
+              </div>
+            <div class="form-group col-4">
+              <label for="sexo">Sexo</label><br>
+              <select name="Sexo" id="sexo">
+                  <option value="masculino">Masculino</option>
+                  <option value="feminino">Feminino</option>
+              </select><br><br>
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
