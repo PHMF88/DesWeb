@@ -1,0 +1,43 @@
+        /* Estilos globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos das divs */
+        .div {
+            margin-top: 30px;
+            margin: 0 auto;
+            width: 70%;
+            background-color: #DB630D;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Estilos dos parágrafos dentro das divs */
+        .div p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #FFFFFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Personalização específica para a primeira div */
+        #div1 p {
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+
+        /* Personalização específica para a segunda div */
+        #div2 p {
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+
+        /* Personalização específica para a terceira div */
+        #div3 p {
+            font-size: 16px;
+            color: #FFFFFF;
+        }
