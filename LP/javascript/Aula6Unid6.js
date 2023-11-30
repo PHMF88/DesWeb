@@ -30,7 +30,7 @@ console.log(`Índice da geladeira = ${indiceGeladeira}`)//vai mostra que o índi
 
 let indiceMouse=carrinho.indexOf("Mouse")
 console.log(`Índice do Mouse é ${indiceMouse}.`)
-carrinho.splice(indiceMouse.1)//vai remover o Mouse. Se eu colocasse "indiceMouse.2", removeria o "Mouse" e o "Ipad".
+carrinho.splice(indiceMouse,1)//vai remover o Mouse. Se eu colocasse "indiceMouse.2", removeria o "Mouse" e o "Ipad".
 console.log(carrinho)
 carrinho.splice(0, 2)//vai apagar a Geladeira e o Mouse, ou seja, dois elementos a partir do índice 0, q é a Televisão.
 
