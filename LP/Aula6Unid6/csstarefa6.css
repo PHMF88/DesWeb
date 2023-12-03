@@ -1,0 +1,47 @@
+/*Cabeçalho*/
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: #ecf4d6;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+.item{
+    font-size: 1em;
+    color: #ecf4d6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+    border: 2px solid #000;
+    width: 10%;
+    text-align: center;
+    margin-right: 4%;
+    }
+
+.logo{
+    width: 4%;
+    margin-right: 50%;
+}
+/*Principal*/
+.conteiner-fluid{
+    display: flex; 
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    color: aliceblue;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid #000;
+    background-color: #9ad0c2;
+    align-content: center;
+    justify-content: center;
+}
