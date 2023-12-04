@@ -45,3 +45,10 @@
     align-content: center;
     justify-content: center;
 }
+
+.painel{
+    border: 2px solid #000;
+    width: 10rem;
+    height: 80%;
+    background-color: #265073;
+}
