@@ -35,3 +35,12 @@ function perfeito(num){
 }
 console.log(perfeito(6))
 //Obs.: não funcionando
+
+//Crie uma função chamada converteTemperatura que converte uma temperatura de Celsius para Fahrenheit. A fórmula de conversão é: Fahrenheit = (Celsius * 9/5) + 32.
+function converteTemperatura(celsius){
+        return fahrenheit = (celsius * 9/5) + 32
+    }
+console.log("Vamos converter a temperatura celsius em fahrenheit!")
+let celsius=Number(prompt(`Digite a temperatura em graus celsius: `))
+
+console.log(`A temperatura em graus Fahrenheit é ${converteTemperatura(celsius)}°F!`);
